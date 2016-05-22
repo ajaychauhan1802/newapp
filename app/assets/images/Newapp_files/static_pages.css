@@ -1,0 +1,17 @@
+/* line 5, /Users/ajaychauhan/Documents/newapp/app/assets/stylesheets/static_pages.scss */
+body {
+  padding-top: 70px;
+  margin-bottom: -50px;
+  height: 100%;
+}
+
+/* line 11, /Users/ajaychauhan/Documents/newapp/app/assets/stylesheets/static_pages.scss */
+h1 {
+  font-family: Tahoma;
+  font-size: 32px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 44px;
+  color: darkred;
+}
