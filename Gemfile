@@ -58,3 +58,6 @@ end
 
 # Use devise for user authentication
 gem 'devise'
+
+# Use cancancan for user authorization
+gem 'cancancan'
