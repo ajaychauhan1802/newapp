@@ -1,126 +1,49 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-
+// You can use Sass (SCSS) here: http://sass-lang.com/ 
 h1 {
-	font-family: Helvetica, sans-serif;
-	text-alignment: center;
-	color: #454545;
+	text-align: center;
 }
-
-html,
 body {
-	margin: 0;
-	padding: 0;
-	background-color: #C9C9C9;
-}
-
-.navbar {
-	margin-bottom: 0;
-	padding: 0.5em;
-}
-
-.navbar-brand {
-	font-size: 1em;
-	font-family: 'Raleway', Helvetica, sans-serif;
-	color: white !important;
-}
-
-.navbar li {
-	font-size: 1.5em;
-	font-family: 'Raleway', Helvetica, sans-serif;
-	text-transform: uppercase;
-}
-
-.cme-image { 
-	position: relative;
-	top: 0px; 
-	left: 0px; 
-	z-index: 1; 
-} 
-.ome-image { 
-	position: absolute; 
-	top: 150px; 
-	left: 25%;
-	z-index: 3;
-	max-width: 50%;
-} 
-
-.footer {
-	background-color: white;
-	padding: 1.5em;
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-}
-
-.body-wrap {
-	margin-top: 100px;
-	margin-bottom: 100px;
-}
-
-.land-body {
+	
+	background: -webkit-linear-gradient(to left, #485563 , #29323c); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #485563 , #29323c); 
+        
+	padding-top: 70px;
+	background-size: cover;
+	font: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #888;
 	text-align: center;
-	margin-top: 80px;
+}
+li {
+	float: left;
 }
 
-.welcome {
-	width: 90%;
+.footer, .push {
+height: 4em;
+}
+
+.text-muted {
+	margin: 0px,0;	
+}
+.img-responsive {
+	opacity: 0.8;
 	margin: 0 auto;
-	text-align: center;
-	margin-top: -5em;
-	background-color: #f2f2f2;
+	height: 300px;
+}
+.carousel,
+.item,
+.active {
+    height: 100%;
 }
 
-.welcome h1,h2 {
-	font-family: 'Raleway';
-	padding: 1em;
+.carousel-inner {
+    height: 100%;
 }
 
-#search {
-	font-family: 'Raleway', Helvetica, sans-serif;
-	font-size: 1em;
-	padding: 1em;
+/* Background images are set within the HTML using inline CSS, not here */
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
 }
 
-#thanks {
-	margin: 0 auto;
-	margin-top: 7em;
-	text-align: center;
-	width: 50%;
-}
-
-#thanks p {
-	font-family: 'Raleway', sans-serif;
-	font-size: 2em;
-}
-
-#contact-form {
-	margin: 0 auto;
-	text-align: center;
-}
-
-.form-group {
-	margin: 0 auto;
-	text-align: center;
-	width: 50%;
-}
-
-#send-btn {
-	margin: 0 auto;
-	text-align: center;
-	font-family: 'Raleway', sans-serif;
-	font-size: 1.5em;
-	padding: 1em;
-}
-
-.page-head {
-	margin: 0 auto;
-	text-align: center;
-}
-
-.form-btn {
-	font-family: 'Raleway', sans-serif;
-	font-size: 1.25em;
-	padding: 1em;
-}
