@@ -1,17 +1,24 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @product.name %>
-</p>
 
-<p>
-  <strong>Description:</strong>
-  <%= @product.description %>
-</p>
+<div class="col-md-8 col-md-offset-2">
+	<div class="product-name text-left">
+		<h3>
+		  <strong>Name:</strong>
+		  <%= @product.name %>
+		</h3>
+	</div>
 
-<p>
-  <strong>Image url:</strong>
+
+	<div class="product-description text-left">
+		<h3>
+		  <strong>Description:</strong>
+		  <%= @product.description %>
+		</h3>
+	</div>
+</div>
+
+<p><strong>Image url:</strong>
   <%= @product.image_url %>
 </p>
 
