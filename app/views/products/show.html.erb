@@ -1,31 +1,24 @@
+<div class="container" id="showprodcontainer">
 <p id="notice"><%= notice %></p>
 
 
-<div class="col-md-8 col-md-offset-2">
-	<div class="product-name text-left">
-		<h3>
-		  <strong>Name:</strong>
-		  <%= @product.name %>
-		</h3>
-	</div>
-
-
-	<div class="product-description text-left">
-		<h3>
-		  <strong>Description:</strong>
-		  <%= @product.description %>
-		</h3>
-	</div>
+<div class="col-xs-6 col-md-5 showprodthumb">
+<%= image_tag(@product.image_url, class: "img-responsive img-zoom", :"data-zoom-image" => @product.image_url) %>
 </div>
-
-<p><strong>Image url:</strong>
-  <%= @product.image_url %>
-</p>
-
-<p>
+<div class="thumbdetails col-xs-6 col-md-5">
+<h2>
+  <strong>Name:</strong>
+  <%= @product.name %>
+</h2>
+  <h3>
+  <strong>Description:</strong>
+  $ <%= @product.description %>
+</h2>
+<h4>
   <strong>Quantity:</strong>
   <%= @product.quantity %>
 </p>
 
-<%= link_to 'Edit', edit_product_path(@product) %> |
-<%= link_to 'Back', products_path %>
+<%= link_to 'Edit', edit_product_path(@product),class: 'btn btn-default', role:'button' %> 
+<%= link_to 'Back', products_path, class: 'btn btn-default', role:'button' %>
+
